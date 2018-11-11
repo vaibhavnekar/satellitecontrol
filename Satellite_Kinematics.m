@@ -35,7 +35,6 @@ function output = skew_matrix(x)
 % Returns the skew symmetric matrix of the input vector
 output = [0 -x(3) x(2);...
     x(3) 0 -x(1);...
-    37
     -x(2) x(1) 0];
 end
 
